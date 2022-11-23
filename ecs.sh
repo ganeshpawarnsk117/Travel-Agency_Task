@@ -5,11 +5,9 @@ PATH=$PATH:/usr/local/bin; export PATH
 REGION=ap-south-1
 REPOSITORY_NAME=travel-agency
 CLUSTER=Demo_cluster
-#FAMILY=`sed -n 's/.*"family": "\(.*\)",/\1/p' taskdef.json`
-#NAME=`sed -n 's/.*"name": "\(.*\)",/\1/p' taskdef.json`
-#SERVICE_NAME=${NAME}
-FAMILY= travel-agency
-NAME= travel-name
+FAMILY=`sed -n 's/.*"family": "\(.*\)",/\1/p' taskdef.json`
+NAME=`sed -n 's/.*"name": "\(.*\)",/\1/p' taskdef.json`
+SERVICE_NAME=${NAME}
 env
 aws configure list
 echo $HOME
