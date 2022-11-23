@@ -7,7 +7,7 @@ IMAGE_NAME=234111192759.dkr.ecr.ap-south-1.amazonaws.com/travel-agency:latest
 
 #deploy () {
 #0install add jq https://apps.0install.net/utils/jq.xml
-#export PATH=/var/lib/jenkins/bin:$PATH
+export PATH=/var/lib/jenkins/bin:$PATH
 #sleep 20
 whoami
 echo "Deploying to Service"
