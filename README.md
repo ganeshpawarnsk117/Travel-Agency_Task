@@ -1,5 +1,5 @@
 # Travel-Agency_Task
-#Refer work flow word file
+#Refer work-flow word file
 
 Work Flow for Travel-Agency task
 
@@ -106,7 +106,7 @@ For execution of above terraform script use following commands
     • User name: admin@gmail.com
     • Password: admin
     
-9. Supporting Screenshots for Home-page, Login-page, Admin-page refer work flow file
+9. Supporting Screenshots for Home-page, Login-page, Admin-page refer work-flow file
 
 
 
