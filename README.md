@@ -105,7 +105,8 @@ For execution of above terraform script use following commands
 
     • User name: admin@gmail.com
     • Password: admin
-9. Supporting Screenshots for Home-page, Login-page, Admin-page.
+    
+9. Supporting Screenshots for Home-page, Login-page, Admin-page refer work flow file
 
 
 
