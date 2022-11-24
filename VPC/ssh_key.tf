@@ -1,0 +1,5 @@
+resource "aws_iam_user_ssh_key" "user" {
+  username   = "terraform_user"
+  encoding   = "SSH"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDA1Zc6zam8uBL7OeINLlKcdx1Wcy0Du1KleK7WUYiNDCeJ76jdXv/hJDIicXwQ6M/WbEBNGzGKHruk9JNBJ8G+diY1glx3KKEYy+nkGeaegmsYPBKpB/2ELCtvz9CFp0pGwBcgZTRchqmOmK5LTfeiuQCumTTjaT4+0R0JG7dwj9rolfLX52lsKqTaGyLz/5OdWH34k/4jNfXyD71UnmD15SMaKjbnpy67TuXUcrkDq7Fls29Tx6h0iKVCKbqW/i9gP1mtU+Sz6O4ZWfjdN77afKB74PBmcEQ2Ub4MF11x0Nq63N5n+DhS/ZU0mi2m1J4uV5/by+4ABl3uLMp2IDD+qYiXFHH9BaO4tnm8ls1qz14o3VlZHRY24k7juQLwo42oYCJ9qmZgKg7e32DQB+X25C55hT/ehV/lr9t2yuvMI56XbVuJwvwLy3G139JL9lTfZm7Nezv2GOAzKiRPZL2XilRLQyZAKOmJNNel/I5J7wWAkATSgHylpGBJDZByfYk= root@neosoft-HP-EliteBook-820-G2"
+}
